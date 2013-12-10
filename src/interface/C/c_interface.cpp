@@ -1835,7 +1835,7 @@ int getExprID (Expr ex) {
 
 //////////////////////////////////////////////////////////////////////////
 // extended version
-
+/*
 
 #if 0
 /#ifndef YY_TYPEDEF_YY_BUFFER_STATE
@@ -1896,4 +1896,5 @@ int vc_parseMemExpr(VC vc, const char* s, Expr* oquery, Expr* oasserts ) {
   }
   return 1;
 } //end of vc_parseMemExpr()
+*/
 
