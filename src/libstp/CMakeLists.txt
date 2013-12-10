@@ -74,7 +74,7 @@ endif()
 # Clients of libstp that don't use CMake will have to link the Boost libraries
 # in manually.
 # -----------------------------------------------------------------------------
-target_link_libraries(libstp ${Boost_LIBRARIES})
+target_link_libraries(libstp ${Boost_LIBRARIES} ${ZLIB_LIBRARY})
 
 
 # -----------------------------------------------------------------------------
